@@ -1,0 +1,92 @@
+*{
+font-family: 'Josefin Sans', sans-serif;
+
+
+}
+
+body{
+	background-color: lightgrey;
+
+}
+
+.nav-item1{
+	color: cadetblue;
+	text-align: left;
+	word-spacing: 104px;
+	font-size: 19px;
+}
+
+
+img{
+	width: 40px;
+	border-radius: 50%;
+	padding-top: 3px;
+}
+
+
+a {
+  color: cadetblue;
+ 
+} 
+
+h1{
+	text-align: center;
+	font-size: 45px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding-bottom: 40px;
+}
+
+.pics{
+	width: 85%;
+	border-radius: 5%;
+	padding-top: 35%;
+
+}
+
+.btn, .btn-outline-warning{
+	background-color: azure;
+    color: darkblue;
+    border-radius: 15px;
+
+}
+
+button{
+  font-size: 30px;
+  text-align: center;
+  animation: moveright 2s;
+  background-color: blanchedalmond;
+  color: darkred;
+  border-radius: 30px;
+  }
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: azure;
+    padding: 13px;
+}
+  @media (min-width: 1024px){
+
+.nav-item1 {
+    color: cadetblue;
+    text-align: left;
+    word-spacing: 429px;
+    font-size: 19px;
+}
+
+  }
